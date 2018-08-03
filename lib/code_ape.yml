@@ -1,0 +1,1504 @@
+---
+0111Z:
+  label: Culture de céréales (à l'exception du riz), de légumineuses et de graines
+    oléagineuses
+0112Z:
+  label: Culture du riz
+0113Z:
+  label: Culture de légumes, de melons, de racines et de tubercules
+0114Z:
+  label: Culture de la canne à sucre
+0115Z:
+  label: Culture du tabac
+0116Z:
+  label: Culture de plantes à fibres
+0119Z:
+  label: Autres cultures non permanentes
+0121Z:
+  label: Culture de la vigne
+0122Z:
+  label: Culture de fruits tropicaux et subtropicaux
+0123Z:
+  label: Culture d'agrumes
+0124Z:
+  label: Culture de fruits à pépins et à noyau
+0125Z:
+  label: Culture d'autres fruits d'arbres ou d'arbustes et de fruits à coque
+0126Z:
+  label: Culture de fruits oléagineux
+0127Z:
+  label: Culture de plantes à boissons
+0128Z:
+  label: Culture de plantes à épices, aromatiques, médicinales et pharmaceutiques
+0129Z:
+  label: Autres cultures permanentes
+0130Z:
+  label: Reproduction de plantes
+0141Z:
+  label: Élevage de vaches laitières
+0142Z:
+  label: Élevage d'autres bovins et de buffles
+0143Z:
+  label: Élevage de chevaux et d'autres équidés
+0144Z:
+  label: Élevage de chameaux et d'autres camélidés
+0145Z:
+  label: Élevage d'ovins et de caprins
+0146Z:
+  label: Élevage de porcins
+0147Z:
+  label: Élevage de volailles
+0149Z:
+  label: Élevage d'autres animaux
+0150Z:
+  label: Culture et élevage associés
+0161Z:
+  label: Activités de soutien aux cultures
+0162Z:
+  label: Activités de soutien à la production animale
+0163Z:
+  label: Traitement primaire des récoltes
+0164Z:
+  label: Traitement des semences
+0170Z:
+  label: Chasse, piégeage et services annexes
+0210Z:
+  label: Sylviculture et autres activités forestières
+0220Z:
+  label: Exploitation forestière
+0230Z:
+  label: Récolte de produits forestiers non ligneux poussant à l'état sauvage
+0240Z:
+  label: Services de soutien à l'exploitation forestière
+0311Z:
+  label: Pêche en mer
+0312Z:
+  label: Pêche en eau douce
+0321Z:
+  label: Aquaculture en mer
+0322Z:
+  label: Aquaculture en eau douce
+0510Z:
+  label: Extraction de houille
+0520Z:
+  label: Extraction de lignite
+0610Z:
+  label: Extraction de pétrole brut
+0620Z:
+  label: Extraction de gaz naturel
+0710Z:
+  label: Extraction de minerais de fer
+0721Z:
+  label: Extraction de minerais d'uranium et de thorium
+0729Z:
+  label: Extraction d'autres minerais de métaux non ferreux
+0811Z:
+  label: Extraction de pierres ornementales et de construction, de calcaire industriel,
+    de gypse, de craie et d'ardoise
+0812Z:
+  label: Exploitation de gravières et sablières, extraction d'argiles et de kaolin
+0891Z:
+  label: Extraction des minéraux chimiques et d'engrais minéraux
+0892Z:
+  label: Extraction de tourbe
+0893Z:
+  label: Production de sel
+0899Z:
+  label: Autres activités extractives n.c.a.
+0910Z:
+  label: Activités de soutien à l'extraction d'hydrocarbures
+0990Z:
+  label: Activités de soutien aux autres industries extractives
+1011Z:
+  label: Transformation et conservation de la viande de boucherie
+1012Z:
+  label: Transformation et conservation de la viande de volaille
+1013A:
+  label: Préparation industrielle de produits à base de viande
+1013B:
+  label: Charcuterie
+1020Z:
+  label: Transformation et conservation de poisson, de crustacés et de mollusques
+1031Z:
+  label: Transformation et conservation de pommes de terre
+1032Z:
+  label: Préparation de jus de fruits et légumes
+1039A:
+  label: Autre transformation et conservation de légumes
+1039B:
+  label: Transformation et conservation de fruits
+1041B:
+  label: Fabrication d'huiles et graisses raffinées
+1042Z:
+  label: Fabrication de margarine et graisses comestibles similaires
+1051A:
+  label: Fabrication de lait liquide et de produits frais
+1051B:
+  label: Fabrication de beurre
+1051C:
+  label: Fabrication de fromage
+1051D:
+  label: Fabrication d'autres produits laitiers
+1052Z:
+  label: Fabrication de glaces et sorbets
+1061A:
+  label: Meunerie
+1061B:
+  label: Autres activités du travail des grains
+1062Z:
+  label: Fabrication de produits amylacés
+1071A:
+  label: Fabrication industrielle de pain et de pâtisserie fraîche
+1071B:
+  label: Cuisson de produits de boulangerie
+1071C:
+  label: Boulangerie et boulangerie-pâtisserie
+1071D:
+  label: Pâtisserie
+1072Z:
+  label: Fabrication de biscuits, biscottes et pâtisseries de conservation
+1073Z:
+  label: Fabrication de pâtes alimentaires
+1081Z:
+  label: Fabrication de sucre
+1082Z:
+  label: Fabrication de cacao, chocolat et de produits de confiserie
+1083Z:
+  label: Transformation du thé et du café
+1084Z:
+  label: Fabrication de condiments et assaisonnements
+1085Z:
+  label: Fabrication de plats préparés
+1086Z:
+  label: Fabrication d'aliments homogénéisés et diététiques
+1089Z:
+  label: Fabrication d'autres produits alimentaires n.c.a.
+1091Z:
+  label: Fabrication d'aliments pour animaux de ferme
+1092Z:
+  label: Fabrication d'aliments pour animaux de compagnie
+1101Z:
+  label: Production de boissons alcooliques distillées
+1102A:
+  label: Fabrication de vins effervescents
+1102B:
+  label: Vinification
+1103Z:
+  label: Fabrication de cidre et de vins de fruits
+1104Z:
+  label: Production d'autres boissons fermentées non distillées
+1105Z:
+  label: Fabrication de bière
+1106Z:
+  label: Fabrication de malt
+1107A:
+  label: Industrie des eaux de table
+1107B:
+  label: Production de boissons rafraîchissantes
+1200Z:
+  label: Fabrication de produits à base de tabac
+1310Z:
+  label: Préparation de fibres textiles et filature
+1320Z:
+  label: Tissage
+1330Z:
+  label: Ennoblissement textile
+1391Z:
+  label: Fabrication d'étoffes à mailles
+1392Z:
+  label: Fabrication d'articles textiles, sauf habillement
+1393Z:
+  label: Fabrication de tapis et moquettes
+1394Z:
+  label: Fabrication de ficelles, cordes et filets
+1395Z:
+  label: Fabrication de non-tissés, sauf habillement
+1396Z:
+  label: Fabrication d'autres textiles techniques et industriels
+1399Z:
+  label: Fabrication d'autres textiles n.c.a.
+1411Z:
+  label: Fabrication de vêtements en cuir
+1412Z:
+  label: Fabrication de vêtements de travail
+1413Z:
+  label: Fabrication de vêtements de dessus
+1414Z:
+  label: Fabrication de vêtements de dessous
+1419Z:
+  label: Fabrication d'autres vêtements et accessoires
+1420Z:
+  label: Fabrication d'articles en fourrure
+1431Z:
+  label: Fabrication d'articles chaussants à mailles
+1439Z:
+  label: Fabrication d'autres articles à mailles
+1511Z:
+  label: Apprêt et tannage des cuirs, préparation et teinture des fourrures
+1512Z:
+  label: Fabrication d'articles de voyage, de maroquinerie et de sellerie
+1520Z:
+  label: Fabrication de chaussures
+1610A:
+  label: Sciage et rabotage du bois, hors imprégnation
+1610B:
+  label: Imprégnation du bois
+1621Z:
+  label: Fabrication de placage et de panneaux de bois
+1622Z:
+  label: Fabrication de parquets assemblés
+1623Z:
+  label: Fabrication de charpentes et d'autres menuiseries
+1624Z:
+  label: Fabrication d'emballages en bois
+1629Z:
+  label: Fabrication d'objets divers en bois, fabrication d'objets en liège, vannerie
+    et sparterie
+1711Z:
+  label: Fabrication de pâte à papier
+1712Z:
+  label: Fabrication de papier et de carton
+1721A:
+  label: Fabrication de carton ondulé
+1721B:
+  label: Fabrication de cartonnages
+1721C:
+  label: Fabrication d'emballages en papier
+1722Z:
+  label: Fabrication d'articles en papier à usage sanitaire ou domestique
+1723Z:
+  label: Fabrication d'articles de papeterie
+1724Z:
+  label: Fabrication de papiers peints
+1729Z:
+  label: Fabrication d'autres articles en papier ou en carton
+1811Z:
+  label: Imprimerie de journaux
+1812Z:
+  label: Autre imprimerie (labeur)
+1813Z:
+  label: Activités de pré-presse
+1814Z:
+  label: Reliure et activités connexes
+1820Z:
+  label: Reproduction d'enregistrements
+1910Z:
+  label: Cokéfaction
+1920Z:
+  label: Raffinage du pétrole
+2011Z:
+  label: Fabrication de gaz industriels
+2012Z:
+  label: Fabrication de colorants et de pigments
+2013A:
+  label: Enrichissement et retraitement de matières nucléaires
+2013B:
+  label: Fabrication d'autres produits chimiques inorganiques de base n.c.a.
+2014Z:
+  label: Fabrication d'autres produits chimiques organiques de base
+2015Z:
+  label: Fabrication de produits azotés et d'engrais
+2016Z:
+  label: Fabrication de matières plastiques de base
+2017Z:
+  label: Fabrication de caoutchouc synthétique
+2020Z:
+  label: Fabrication de pesticides et d'autres produits agrochimiques
+2030Z:
+  label: Fabrication de peintures, vernis, encres et mastics
+2041Z:
+  label: Fabrication de savons, détergents et produits d'entretien
+2042Z:
+  label: Fabrication de parfums et de produits pour la toilette
+2051Z:
+  label: Fabrication de produits explosifs
+2052Z:
+  label: Fabrication de colles
+2053Z:
+  label: Fabrication d'huiles essentielles
+2059Z:
+  label: Fabrication d'autres produits chimiques n.c.a.
+2060Z:
+  label: Fabrication de fibres artificielles ou synthétiques
+2110Z:
+  label: Fabrication de produits pharmaceutiques de base
+2120Z:
+  label: Fabrication de préparations pharmaceutiques
+2211Z:
+  label: Fabrication et rechapage de pneumatiques
+2219Z:
+  label: Fabrication d'autres articles en caoutchouc
+2221Z:
+  label: Fabrication de plaques, feuilles, tubes et profilés en matières plastiques
+2222Z:
+  label: Fabrication d'emballages en matières plastiques
+2223Z:
+  label: Fabrication d'éléments en matières plastiques pour la construction
+2229A:
+  label: Fabrication de pièces techniques à base de matières plastiques
+2229B:
+  label: Fabrication de produits de consommation courante en matières plastiques
+2311Z:
+  label: Fabrication de verre plat
+2312Z:
+  label: Façonnage et transformation du verre plat
+2313Z:
+  label: Fabrication de verre creux
+2314Z:
+  label: Fabrication de fibres de verre
+2319Z:
+  label: Fabrication et façonnage d'autres articles en verre, y compris verre technique
+2320Z:
+  label: Fabrication de produits réfractaires
+2331Z:
+  label: Fabrication de carreaux en céramique
+2332Z:
+  label: Fabrication de briques, tuiles et produits de construction, en terre cuite
+2341Z:
+  label: Fabrication d'articles céramiques à usage domestique ou ornemental
+2342Z:
+  label: Fabrication d'appareils sanitaires en céramique
+2343Z:
+  label: Fabrication d'isolateurs et pièces isolantes en céramique
+2344Z:
+  label: Fabrication d'autres produits céramiques à usage technique
+2349Z:
+  label: Fabrication d'autres produits céramiques
+2351Z:
+  label: Fabrication de ciment
+2352Z:
+  label: Fabrication de chaux et plâtre
+2361Z:
+  label: Fabrication d'éléments en béton pour la construction
+2362Z:
+  label: Fabrication d'éléments en plâtre pour la construction
+2363Z:
+  label: Fabrication de béton prêt à l'emploi
+2364Z:
+  label: Fabrication de mortiers et bétons secs
+2365Z:
+  label: Fabrication d'ouvrages en fibre-ciment
+2369Z:
+  label: Fabrication d'autres ouvrages en béton, en ciment ou en plâtre
+2370Z:
+  label: Taille, façonnage et finissage de pierres
+2391Z:
+  label: Fabrication de produits abrasifs
+2399Z:
+  label: Fabrication d'autres produits minéraux non métalliques n.c.a.
+2410Z:
+  label: Sidérurgie
+2420Z:
+  label: Fabrication de tubes, tuyaux, profilés creux et accessoires correspondants
+    en acier
+2431Z:
+  label: Etirage à froid de barres
+2432Z:
+  label: Laminage à froid de feuillards
+2433Z:
+  label: Profilage à froid par formage ou pliage
+2434Z:
+  label: Tréfilage à froid
+2441Z:
+  label: Production de métaux précieux
+2442Z:
+  label: Métallurgie de l'aluminium
+2443Z:
+  label: Métallurgie du plomb, du zinc ou de l'étain
+2444Z:
+  label: Métallurgie du cuivre
+2445Z:
+  label: Métallurgie des autres métaux non ferreux
+2446Z:
+  label: élaboration et transformation de matières nucléaires
+2451Z:
+  label: Fonderie de fonte
+2452Z:
+  label: Fonderie d'acier
+2453Z:
+  label: Fonderie de métaux légers
+2454Z:
+  label: Fonderie d'autres métaux non ferreux
+2511Z:
+  label: Fabrication de structures métalliques et de parties de structures
+2512Z:
+  label: Fabrication de portes et fenêtres en métal
+2521Z:
+  label: Fabrication de radiateurs et de chaudières pour le chauffage central
+2529Z:
+  label: Fabrication d'autres réservoirs, citernes et conteneurs métalliques
+2530Z:
+  label: Fabrication de générateurs de vapeur, à l'exception des chaudières pour le
+    chauffage central
+2540Z:
+  label: Fabrication d'armes et de munitions
+2550A:
+  label: Forge, estampage, matriçage, métallurgie des poudres
+2550B:
+  label: Découpage, emboutissage
+2561Z:
+  label: Traitement et revêtement des métaux
+2562A:
+  label: Décolletage
+2562B:
+  label: Mécanique industrielle
+2571Z:
+  label: Fabrication de coutellerie
+2572Z:
+  label: Fabrication de serrures et de ferrures
+2573A:
+  label: Fabrication de moules et modèles
+2573B:
+  label: Fabrication d'autres outillages
+2591Z:
+  label: Fabrication de fûts et emballages métalliques similaires
+2592Z:
+  label: Fabrication d'emballages métalliques légers
+2593Z:
+  label: Fabrication d'articles en fils métalliques, de chaînes et de ressorts
+2594Z:
+  label: Fabrication de vis et de boulons
+2599A:
+  label: Fabrication d'articles métalliques ménagers
+2599B:
+  label: Fabrication d'autres articles métalliques
+2611Z:
+  label: Fabrication de composants électroniques
+2612Z:
+  label: Fabrication de cartes électroniques assemblées
+2620Z:
+  label: Fabrication d'ordinateurs et d'équipements périphériques
+2630Z:
+  label: Fabrication d'équipements de communication
+2640Z:
+  label: Fabrication de produits électroniques grand public
+2651A:
+  label: Fabrication d'équipements d'aide à la navigation
+2651B:
+  label: Fabrication d'instrumentation scientifique et technique
+2652Z:
+  label: Horlogerie
+2660Z:
+  label: Fabrication d'équipements d'irradiation médicale, d'équipements électromédicaux
+    et électrothérapeutiques
+2670Z:
+  label: Fabrication de matériels optique et photographique
+2680Z:
+  label: Fabrication de supports magnétiques et optiques
+2711Z:
+  label: Fabrication de moteurs, génératrices et transformateurs électriques
+2712Z:
+  label: Fabrication de matériel de distribution et de commande électrique
+2720Z:
+  label: Fabrication de piles et d'accumulateurs électriques
+2731Z:
+  label: Fabrication de câbles de fibres optiques
+2732Z:
+  label: Fabrication d'autres fils et câbles électroniques ou électriques
+2733Z:
+  label: Fabrication de matériel d'installation électrique
+2740Z:
+  label: Fabrication d'appareils d'éclairage électrique
+2751Z:
+  label: Fabrication d'appareils électroménagers
+2752Z:
+  label: Fabrication d'appareils ménagers non électriques
+2790Z:
+  label: Fabrication d'autres matériels électriques
+2811Z:
+  label: Fabrication de moteurs et turbines, à l'exception des moteurs d'avions et
+    de véhicules
+2812Z:
+  label: Fabrication d'équipements hydrauliques et pneumatiques
+2813Z:
+  label: Fabrication d'autres pompes et compresseurs
+2814Z:
+  label: Fabrication d'autres articles de robinetterie
+2815Z:
+  label: Fabrication d'engrenages et d'organes mécaniques de transmission
+2821Z:
+  label: Fabrication de fours et brûleurs
+2822Z:
+  label: Fabrication de matériel de levage et de manutention
+2823Z:
+  label: Fabrication de machines et d'équipements de bureau (à l'exception des ordinateurs
+    et équipements périphériques)
+2824Z:
+  label: Fabrication d'outillage portatif à moteur incorporé
+2825Z:
+  label: Fabrication d'équipements aérauliques et frigorifiques industriels
+2829A:
+  label: Fabrication d'équipements d'emballage, de conditionnement et de pesage
+2829B:
+  label: Fabrication d'autres machines d'usage général
+2830Z:
+  label: Fabrication de machines agricoles et forestières
+2841Z:
+  label: Fabrication de machines-outils pour le travail des métaux
+2849Z:
+  label: Fabrication d'autres machines-outils
+2891Z:
+  label: Fabrication de machines pour la métallurgie
+2892Z:
+  label: Fabrication de machines pour l'extraction ou la construction
+2893Z:
+  label: Fabrication de machines pour l'industrie agro-alimentaire
+2894Z:
+  label: Fabrication de machines pour les industries textiles
+2895Z:
+  label: Fabrication de machines pour les industries du papier et du carton
+2896Z:
+  label: Fabrication de machines pour le travail du caoutchouc ou des plastiques
+2899A:
+  label: Fabrication de machines d'imprimerie
+2899B:
+  label: Fabrication d'autres machines spécialisées
+2910Z:
+  label: Construction de véhicules automobiles
+2920Z:
+  label: Fabrication de carrosseries et remorques
+2931Z:
+  label: Fabrication d'équipements électriques et électroniques automobiles
+2932Z:
+  label: Fabrication d'autres équipements automobiles
+3011Z:
+  label: Construction de navires et de structures flottantes
+3012Z:
+  label: Construction de bateaux de plaisance
+3020Z:
+  label: Construction de locomotives et d'autre matériel ferroviaire roulant
+3030Z:
+  label: Construction aéronautique et spatiale
+3040Z:
+  label: Construction de véhicules militaires de combat
+3091Z:
+  label: Fabrication de motocycles
+3092Z:
+  label: Fabrication de bicyclettes et de véhicules pour invalides
+3099Z:
+  label: Fabrication d'autres équipements de transport n.c.a.
+3101Z:
+  label: Fabrication de meubles de bureau et de magasin
+3102Z:
+  label: Fabrication de meubles de cuisine
+3103Z:
+  label: Fabrication de matelas
+3109A:
+  label: Fabrication de sièges d'ameublement d'intérieur
+3109B:
+  label: Fabrication d'autres meubles et industries connexes de l'ameublement
+3211Z:
+  label: Frappe de monnaie
+3212Z:
+  label: Fabrication d'articles de joaillerie et bijouterie
+3213Z:
+  label: Fabrication d'articles de bijouterie fantaisie et articles similaires
+3220Z:
+  label: Fabrication d'instruments de musique
+3230Z:
+  label: Fabrication d'articles de sport
+3240Z:
+  label: Fabrication de jeux et jouets
+3250A:
+  label: Fabrication de matériel médico-chirurgical et dentaire
+3250B:
+  label: Fabrication de lunettes
+3291Z:
+  label: Fabrication d'articles de brosserie
+3299Z:
+  label: Autres activités manufacturières n.c.a.
+3311Z:
+  label: Réparation d'ouvrages en métaux
+3312Z:
+  label: Réparation de machines et équipements mécaniques
+3313Z:
+  label: Réparation de matériels électroniques et optiques
+3314Z:
+  label: Réparation d'équipements électriques
+3315Z:
+  label: Réparation et maintenance navale
+3316Z:
+  label: Réparation et maintenance d'aéronefs et d'engins spatiaux
+3317Z:
+  label: Réparation et maintenance d'autres équipements de transport
+3319Z:
+  label: Réparation d'autres équipements
+3320A:
+  label: Installation de structures métalliques, chaudronnées et de tuyauterie
+3320B:
+  label: Installation de machines et équipements mécaniques
+3320C:
+  label: Conception d'ensemble et assemblage sur site industriel d'équipements de
+    contrôle des processus industriels
+3320D:
+  label: Installation d'équipements électriques, de matériels électroniques et optiques
+    ou d'autres matériels
+3511Z:
+  label: Production d'électricité
+3512Z:
+  label: Transport d'électricité
+3513Z:
+  label: Distribution d'électricité
+3514Z:
+  label: Commerce d'électricité
+3521Z:
+  label: Production de combustibles gazeux
+3522Z:
+  label: Distribution de combustibles gazeux par conduites
+3523Z:
+  label: Commerce de combustibles gazeux par conduites
+3530Z:
+  label: Production et distribution de vapeur et d'air conditionné
+3600Z:
+  label: Captage, traitement et distribution d'eau
+3700Z:
+  label: Collecte et traitement des eaux usées
+3811Z:
+  label: Collecte des déchets non dangereux
+3812Z:
+  label: Collecte des déchets dangereux
+3821Z:
+  label: Traitement et élimination des déchets non dangereux
+3822Z:
+  label: Traitement et élimination des déchets dangereux
+3831Z:
+  label: Démantèlement d'épaves
+3832Z:
+  label: Récupération de déchets triés
+3900Z:
+  label: Dépollution et autres services de gestion des déchets
+4110A:
+  label: Promotion immobilière de logements
+4110B:
+  label: Promotion immobilière de bureaux
+4110C:
+  label: Promotion immobilière d'autres bâtiments
+4110D:
+  label: Supports juridiques de programmes
+4120A:
+  label: Construction de maisons individuelles
+4120B:
+  label: Construction d'autres bâtiments
+4211Z:
+  label: Construction de routes et autoroutes
+4212Z:
+  label: Construction de voies ferrées de surface et souterraines
+4213A:
+  label: Construction d'ouvrages d'art
+4213B:
+  label: Construction et entretien de tunnels
+4221Z:
+  label: Construction de réseaux pour fluides
+4222Z:
+  label: Construction de réseaux électriques et de télécommunications
+4291Z:
+  label: Construction d'ouvrages maritimes et fluviaux
+4299Z:
+  label: Construction d'autres ouvrages de génie civil n.c.a.
+4311Z:
+  label: Travaux de démolition
+4312A:
+  label: Travaux de terrassement courants et travaux préparatoires
+4312B:
+  label: Travaux de terrassement spécialisés ou de grande masse
+4313Z:
+  label: Forages et sondages
+4321A:
+  label: Travaux d'installation électrique dans tous locaux
+4321B:
+  label: Travaux d'installation électrique sur la voie publique
+4322A:
+  label: Travaux d'installation d'eau et de gaz en tous locaux
+4322B:
+  label: Travaux d'installation d'équipements thermiques et de climatisation
+4329A:
+  label: Travaux d'isolation
+4329B:
+  label: Autres travaux d'installation n.c.a.
+4331Z:
+  label: Travaux de plâtrerie
+4332A:
+  label: Travaux de menuiserie bois et pvc
+4332B:
+  label: Travaux de menuiserie métallique et serrurerie
+4332C:
+  label: Agencement de lieux de vente
+4333Z:
+  label: Travaux de revêtement des sols et des murs
+4334Z:
+  label: Travaux de peinture et vitrerie
+4339Z:
+  label: Autres travaux de finition
+4391A:
+  label: Travaux de charpente
+4391B:
+  label: Travaux de couverture par éléments
+4399A:
+  label: Travaux d'étanchéification
+4399B:
+  label: Travaux de montage de structures métalliques
+4399C:
+  label: Travaux de maçonnerie générale et gros œuvre de bâtiment
+4399D:
+  label: Autres travaux spécialisés de construction
+4399E:
+  label: Location avec opérateur de matériel de construction
+4511Z:
+  label: Commerce de voitures et de véhicules automobiles légers
+4519Z:
+  label: Commerce d'autres véhicules automobiles
+4520A:
+  label: Entretien et réparation de véhicules automobiles légers
+4520B:
+  label: Entretien et réparation d'autres véhicules automobiles
+4531Z:
+  label: Commerce de gros d'équipements automobiles
+4532Z:
+  label: Commerce de détail d'équipements automobiles
+4540Z:
+  label: Commerce et réparation de motocycles
+4611Z:
+  label: Intermédiaires du commerce en matières premières agricoles, animaux vivants,
+    matières premières textiles et
+4612A:
+  label: Centrales d'achat de carburant
+4612B:
+  label: Autres intermédiaires du commerce en combustibles, métaux, minéraux et produits
+    chimiques
+4613Z:
+  label: Intermédiaires du commerce en bois et matériaux de construction
+4614Z:
+  label: Intermédiaires du commerce en machines, équipements industriels, navires
+    et avions
+4615Z:
+  label: Intermédiaires du commerce en meubles, articles de ménage et quincaillerie
+4616Z:
+  label: Intermédiaires du commerce en textiles, habillement, fourrures, chaussures
+    et articles en cuir
+4617A:
+  label: Centrales d'achat alimentaires
+4617B:
+  label: Autres intermédiaires du commerce en denrées, boissons et tabac
+4618Z:
+  label: Intermédiaires spécialisés dans le commerce d'autres produits spécifiques
+4619A:
+  label: Centrales d'achat non alimentaires
+4619B:
+  label: Autres intermédiaires du commerce en produits divers
+4621Z:
+  label: Commerce de gros de céréales, de tabac non manufacturé, de semences et d'aliments
+    pour le bétail
+4622Z:
+  label: Commerce de gros de fleurs et plantes
+4623Z:
+  label: Commerce de gros d'animaux vivants
+4624Z:
+  label: Commerce de gros de cuirs et peaux
+4631Z:
+  label: Commerce de gros de fruits et légumes
+4632A:
+  label: Commerce de gros de viandes de boucherie
+4632B:
+  label: Commerce de gros de produits à base de viande
+4632C:
+  label: Commerce de gros de volailles et gibier
+4633Z:
+  label: Commerce de gros de produits laitiers, œufs, huiles et matières grasses comestibles
+4634Z:
+  label: Commerce de gros de boissons
+4635Z:
+  label: Commerce de gros de produits à base de tabac
+4636Z:
+  label: Commerce de gros de sucre, chocolat et confiserie
+4637Z:
+  label: Commerce de gros de café, thé, cacao et épices
+4638A:
+  label: Commerce de gros de poissons, crustacés et mollusques
+4638B:
+  label: Commerce de gros alimentaire spécialisé divers
+4639A:
+  label: Commerce de gros de produits surgelés
+4639B:
+  label: Commerce de gros alimentaire non spécialisé
+4641Z:
+  label: Commerce de gros de textiles
+4642Z:
+  label: Commerce de gros d'habillement et de chaussures
+4643Z:
+  label: Commerce de gros d'appareils électroménagers
+4644Z:
+  label: Commerce de gros de vaisselle, verrerie et produits d'entretien
+4645Z:
+  label: Commerce de gros de parfumerie et de produits de beauté
+4646Z:
+  label: Commerce de gros de produits pharmaceutiques
+4647Z:
+  label: Commerce de gros de meubles, de tapis et d'appareils d'éclairage
+4648Z:
+  label: Commerce de gros d'articles d'horlogerie et de bijouterie
+4649Z:
+  label: Commerce de gros d'autres biens domestiques
+4651Z:
+  label: Commerce de gros d'ordinateurs, d'équipements informatiques périphériques
+    et de logiciels
+4652Z:
+  label: Commerce de gros de composants et d'équipements électroniques et de télécommunication
+4661Z:
+  label: Commerce de gros de matériel agricole
+4662Z:
+  label: Commerce de gros de machines-outils
+4663Z:
+  label: Commerce de gros de machines pour l'extraction, la construction et le génie
+    civil
+4664Z:
+  label: Commerce de gros de machines pour l'industrie textile et l'habillement
+4665Z:
+  label: Commerce de gros de mobilier de bureau
+4666Z:
+  label: Commerce de gros d'autres machines et équipements de bureau
+4669A:
+  label: Commerce de gros de matériel électrique
+4669B:
+  label: Commerce de gros de fournitures et équipements industriels divers
+4669C:
+  label: Commerce de gros de fournitures et équipements divers pour le commerce et
+    les services
+4671Z:
+  label: Commerce de gros de combustibles et de produits annexes
+4672Z:
+  label: Commerce de gros de minerais et métaux
+4673A:
+  label: Commerce de gros de bois et de matériaux de construction
+4673B:
+  label: Commerce de gros d'appareils sanitaires et de produits de décoration
+4674A:
+  label: Commerce de gros de quincaillerie
+4674B:
+  label: Commerce de gros de fournitures pour la plomberie et le chauffage
+4675Z:
+  label: Commerce de gros de produits chimiques
+4676Z:
+  label: Commerce de gros d'autres produits intermédiaires
+4677Z:
+  label: Commerce de gros de déchets et débris
+4690Z:
+  label: Commerce de gros non spécialisé
+4711A:
+  label: Commerce de détail de produits surgelés
+4711B:
+  label: Commerce d'alimentation générale
+4711C:
+  label: Supérettes
+4711D:
+  label: Supermarchés
+4711E:
+  label: Magasins multi-commerces
+4711F:
+  label: Hypermarchés
+4719A:
+  label: Grands magasins
+4719B:
+  label: Autres commerces de détail en magasin non spécialisé
+4721Z:
+  label: Commerce de détail de fruits et légumes en magasin spécialisé
+4722Z:
+  label: Commerce de détail de viandes et de produits à base de viande en magasin
+    spécialisé
+4723Z:
+  label: Commerce de détail de poissons, crustacés et mollusques en magasin spécialisé
+4724Z:
+  label: Commerce de détail de pain, pâtisserie et confiserie en magasin spécialisé
+4725Z:
+  label: Commerce de détail de boissons en magasin spécialisé
+4726Z:
+  label: Commerce de détail de produits à base de tabac en magasin spécialisé
+4729Z:
+  label: Autres commerces de détail alimentaires en magasin spécialisé
+4730Z:
+  label: Commerce de détail de carburants en magasin spécialisé
+4741Z:
+  label: Commerce de détail d'ordinateurs, d'unités périphériques et de logiciels
+    en magasin spécialisé
+4742Z:
+  label: Commerce de détail de matériels de télécommunication en magasin spécialisé
+4743Z:
+  label: Commerce de détail de matériels audio et vidéo en magasin spécialisé
+4751Z:
+  label: Commerce de détail de textiles en magasin spécialisé
+4752A:
+  label: Commerce de détail de quincaillerie, peintures et verres en petites surfaces
+    (moins de 400 m²)
+4752B:
+  label: Commerce de détail de quincaillerie, peintures et verres en grandes surfaces
+    (400 m² et plus)
+4753Z:
+  label: Commerce de détail de tapis, moquettes et revêtements de murs et de sols
+    en magasin spécialisé
+4754Z:
+  label: Commerce de détail d'appareils électroménagers en magasin spécialisé
+4759A:
+  label: Commerce de détail de meubles
+4759B:
+  label: Commerce de détail d'autres équipements du foyer
+4761Z:
+  label: Commerce de détail de livres en magasin spécialisé
+4762Z:
+  label: Commerce de détail de journaux et papeterie en magasin spécialisé
+4763Z:
+  label: Commerce de détail d'enregistrements musicaux et vidéo en magasin spécialisé
+4764Z:
+  label: Commerce de détail d'articles de sport en magasin spécialisé
+4765Z:
+  label: Commerce de détail de jeux et jouets en magasin spécialisé
+4771Z:
+  label: Commerce de détail d'habillement en magasin spécialisé
+4772A:
+  label: Commerce de détail de la chaussure
+4772B:
+  label: Commerce de détail de maroquinerie et d'articles de voyage
+4773Z:
+  label: Commerce de détail de produits pharmaceutiques en magasin spécialisé
+4774Z:
+  label: Commerce de détail d'articles médicaux et orthopédiques en magasin spécialisé
+4775Z:
+  label: Commerce de détail de parfumerie et de produits de beauté en magasin spécialisé
+4776Z:
+  label: Commerce de détail de fleurs, plantes, graines, engrais, animaux de compagnie
+    et aliments pour ces animaux
+4777Z:
+  label: Commerce de détail d'articles d'horlogerie et de bijouterie en magasin spécialisé
+4778A:
+  label: Commerces de détail d'optique
+4778B:
+  label: Commerces de détail de charbons et combustibles
+4778C:
+  label: Autres commerces de détail spécialisés divers
+4779Z:
+  label: Commerce de détail de biens d'occasion en magasin
+4781Z:
+  label: Commerce de détail alimentaire sur éventaires et marchés
+4782Z:
+  label: Commerce de détail de textiles, d'habillement et de chaussures sur éventaires
+    et marchés
+4789Z:
+  label: Autres commerces de détail sur éventaires et marchés
+4791A:
+  label: Vente à distance sur catalogue général
+4791B:
+  label: Vente à distance sur catalogue spécialisé
+4799A:
+  label: Vente à domicile
+4799B:
+  label: Vente par automates et autres commerces de détail hors magasin, éventaires
+    ou marchés n.c.a.
+4910Z:
+  label: Transport ferroviaire interurbain de voyageurs
+4920Z:
+  label: Transports ferroviaires de fret
+4931Z:
+  label: Transports urbains et suburbains de voyageurs
+4932Z:
+  label: Transports de voyageurs par taxis
+4939A:
+  label: Transports routiers réguliers de voyageurs
+4939B:
+  label: Autres transports routiers de voyageurs
+4939C:
+  label: Téléphériques et remontées mécaniques
+4941A:
+  label: Transports routiers de fret interurbains
+4941B:
+  label: Transports routiers de fret de proximité
+4941C:
+  label: Location de camions avec chauffeur
+4942Z:
+  label: Services de déménagement
+4950Z:
+  label: Transports par conduites
+5010Z:
+  label: Transports maritimes et côtiers de passagers
+5020Z:
+  label: Transports maritimes et côtiers de fret
+5030Z:
+  label: Transports fluviaux de passagers
+5040Z:
+  label: Transports fluviaux de fret
+5110Z:
+  label: Transports aériens de passagers
+5121Z:
+  label: Transports aériens de fret
+5122Z:
+  label: Transports spatiaux
+5210A:
+  label: Entreposage et stockage frigorifique
+5210B:
+  label: Entreposage et stockage non frigorifique
+5221Z:
+  label: Services auxiliaires des transports terrestres
+5222Z:
+  label: Services auxiliaires des transports par eau
+5223Z:
+  label: Services auxiliaires des transports aériens
+5224A:
+  label: Manutention portuaire
+5224B:
+  label: Manutention non portuaire
+5229A:
+  label: Messagerie, fret express
+5229B:
+  label: Affrètement et organisation des transports
+5310Z:
+  label: Activités de poste dans le cadre d'une obligation de service universel
+5320Z:
+  label: Autres activités de poste et de courrier
+5510Z:
+  label: Hôtels et hébergement similaire
+5520Z:
+  label: Hébergement touristique et autre hébergement de courte durée
+5530Z:
+  label: Terrains de camping et parcs pour caravanes ou véhicules de loisirs
+5590Z:
+  label: Autres hébergements
+5610A:
+  label: Restauration traditionnelle
+5610B:
+  label: Cafétérias et autres libres-services
+5610C:
+  label: Restauration de type rapide
+5621Z:
+  label: Services des traiteurs
+5629A:
+  label: Restauration collective sous contrat
+5629B:
+  label: Autres services de restauration n.c.a.
+5630Z:
+  label: Débits de boissons
+5811Z:
+  label: Édition de livres
+5812Z:
+  label: Édition de répertoires et de fichiers d'adresses
+5813Z:
+  label: Édition de journaux
+5814Z:
+  label: Édition de revues et périodiques
+5819Z:
+  label: Autres activités d'édition
+5821Z:
+  label: Édition de jeux électroniques
+5829A:
+  label: Édition de logiciels système et de réseau
+5829B:
+  label: Edition de logiciels outils de développement et de langages
+5829C:
+  label: Edition de logiciels applicatifs
+5911A:
+  label: Production de films et de programmes pour la télévision
+5911B:
+  label: Production de films institutionnels et publicitaires
+5911C:
+  label: Production de films pour le cinéma
+5912Z:
+  label: Post-production de films cinématographiques, de vidéo et de programmes de
+    télévision
+5913A:
+  label: Distribution de films cinématographiques
+5913B:
+  label: Edition et distribution vidéo
+5914Z:
+  label: Projection de films cinématographiques
+5920Z:
+  label: Enregistrement sonore et édition musicale
+6010Z:
+  label: Édition et diffusion de programmes radio
+6020A:
+  label: Edition de chaînes généralistes
+6020B:
+  label: Edition de chaînes thématiques
+6110Z:
+  label: Télécommunications filaires
+6120Z:
+  label: Télécommunications sans fil
+6130Z:
+  label: Télécommunications par satellite
+6190Z:
+  label: Autres activités de télécommunication
+6201Z:
+  label: Programmation informatique
+6202A:
+  label: Conseil en systèmes et logiciels informatiques
+6202B:
+  label: Tierce maintenance de systèmes et d'applications informatiques
+6203Z:
+  label: Gestion d'installations informatiques
+6209Z:
+  label: Autres activités informatiques
+6311Z:
+  label: Traitement de données, hébergement et activités connexes
+6312Z:
+  label: Portails internet
+6391Z:
+  label: Activités des agences de presse
+6399Z:
+  label: Autres services d'information n.c.a.
+6411Z:
+  label: Activités de banque centrale
+6419Z:
+  label: Autres intermédiations monétaires
+6420Z:
+  label: Activités des sociétés holding
+6430Z:
+  label: Fonds de placement et entités financières similaires
+6491Z:
+  label: Crédit-bail
+6492Z:
+  label: Autre distribution de crédit
+6499Z:
+  label: Autres activités des services financiers, hors assurance et caisses de retraite,
+    n.c.a.
+6511Z:
+  label: Assurance vie
+6512Z:
+  label: Autres assurances
+6520Z:
+  label: Réassurance
+6530Z:
+  label: Caisses de retraite
+6611Z:
+  label: Administration de marchés financiers
+6612Z:
+  label: Courtage de valeurs mobilières et de marchandises
+6619A:
+  label: Supports juridiques de gestion de patrimoine mobilier
+6619B:
+  label: Autres activités auxiliaires de services financiers, hors assurance et caisses
+    de retraite, n.c.a.
+6621Z:
+  label: évaluation des risques et dommages
+6622Z:
+  label: Activités des agents et courtiers d'assurances
+6629Z:
+  label: Autres activités auxiliaires d'assurance et de caisses de retraite
+6630Z:
+  label: Gestion de fonds
+6810Z:
+  label: Activités des marchands de biens immobiliers
+6820A:
+  label: Location de logements
+6820B:
+  label: Location de terrains et d'autres biens immobiliers
+6831Z:
+  label: Agences immobilières
+6832A:
+  label: Administration d'immeubles et autres biens immobiliers
+6832B:
+  label: Supports juridiques de gestion de patrimoine immobilier
+6910Z:
+  label: Activités juridiques
+6920Z:
+  label: Activités comptables
+7010Z:
+  label: Activités des sièges sociaux
+7021Z:
+  label: Conseil en relations publiques et communication
+7022Z:
+  label: Conseil pour les affaires et autres conseils de gestion
+7111Z:
+  label: Activités d'architecture
+7112A:
+  label: Activité des géomètres
+7112B:
+  label: Ingénierie, études techniques
+7120A:
+  label: Contrôle technique automobile
+7120B:
+  label: Analyses, essais et inspections techniques
+7211Z:
+  label: Recherche-développement en biotechnologie
+7219Z:
+  label: Recherche-développement en autres sciences physiques et naturelles
+7220Z:
+  label: Recherche-développement en sciences humaines et sociales
+7311Z:
+  label: Activités des agences de publicité
+7312Z:
+  label: Régie publicitaire de médias
+7320Z:
+  label: études de marché et sondages
+7410Z:
+  label: Activités spécialisées de design
+7420Z:
+  label: Activités photographiques
+7430Z:
+  label: Traduction et interprétation
+7490A:
+  label: Activité des économistes de la construction
+7490B:
+  label: Activités spécialisées, scientifiques et techniques diverses
+7500Z:
+  label: Activités vétérinaires
+7711A:
+  label: Location de courte durée de voitures et de véhicules automobiles légers
+7711B:
+  label: Location de longue durée de voitures et de véhicules automobiles légers
+7712Z:
+  label: Location et location-bail de camions
+7721Z:
+  label: Location et location-bail d'articles de loisirs et de sport
+7722Z:
+  label: Location de vidéocassettes et disques vidéo
+7729Z:
+  label: Location et location-bail d'autres biens personnels et domestiques
+7731Z:
+  label: Location et location-bail de machines et équipements agricoles
+7732Z:
+  label: Location et location-bail de machines et équipements pour la construction
+7733Z:
+  label: Location et location-bail de machines de bureau et de matériel informatique
+7734Z:
+  label: Location et location-bail de matériels de transport par eau
+7735Z:
+  label: Location et location-bail de matériels de transport aérien
+7739Z:
+  label: Location et location-bail d'autres machines, équipements et biens matériels
+    n.c.a.
+7740Z:
+  label: Location-bail de propriété intellectuelle et de produits similaires, à l'exception
+    des œuvres soumises à copyright
+7810Z:
+  label: Activités des agences de placement de main-d'œuvre
+7820Z:
+  label: Activités des agences de travail temporaire
+7830Z:
+  label: Autre mise à disposition de ressources humaines
+7911Z:
+  label: Activités des agences de voyage
+7912Z:
+  label: Activités des voyagistes
+7990Z:
+  label: Autres services de réservation et activités connexes
+8010Z:
+  label: Activités de sécurité privée
+8020Z:
+  label: Activités liées aux systèmes de sécurité
+8030Z:
+  label: Activités d'enquête
+8110Z:
+  label: Activités combinées de soutien lié aux bâtiments
+8121Z:
+  label: Nettoyage courant des bâtiments
+8122Z:
+  label: Autres activités de nettoyage des bâtiments et nettoyage industriel
+8129A:
+  label: Désinfection, désinsectisation, dératisation
+8129B:
+  label: Autres activités de nettoyage n.c.a.
+8130Z:
+  label: Services d'aménagement paysager
+8211Z:
+  label: Services administratifs combinés de bureau
+8219Z:
+  label: Photocopie, préparation de documents et autres activités spécialisées de
+    soutien de bureau
+8220Z:
+  label: Activités de centres d'appels
+8230Z:
+  label: Organisation de foires, salons professionnels et congrès
+8291Z:
+  label: Activités des agences de recouvrement de factures et des sociétés d'information
+    financière sur la clientèle
+8292Z:
+  label: Activités de conditionnement
+8299Z:
+  label: Autres activités de soutien aux entreprises n.c.a.
+8411Z:
+  label: Administration publique générale
+8412Z:
+  label: Administration publique (tutelle) de la santé, de la formation, de la culture
+    et des services sociaux, autre que sécurité sociale
+8413Z:
+  label: Administration publique (tutelle) des activités économiques
+8421Z:
+  label: Affaires étrangères
+8422Z:
+  label: Défense
+8423Z:
+  label: Justice
+8424Z:
+  label: Activités d'ordre public et de sécurité
+8425Z:
+  label: Services du feu et de secours
+8430A:
+  label: Activités générales de sécurité sociale
+8430B:
+  label: Gestion des retraites complémentaires
+8430C:
+  label: Distribution sociale de revenus
+8510Z:
+  label: Enseignement pré-primaire
+8520Z:
+  label: Enseignement primaire
+8531Z:
+  label: Enseignement secondaire général
+8532Z:
+  label: Enseignement secondaire technique ou professionnel
+8541Z:
+  label: Enseignement post-secondaire non supérieur
+8542Z:
+  label: Enseignement supérieur
+8551Z:
+  label: Enseignement de disciplines sportives et d'activités de loisirs
+8552Z:
+  label: Enseignement culturel
+8553Z:
+  label: Enseignement de la conduite
+8559A:
+  label: Formation continue d'adultes
+8559B:
+  label: Autres enseignements
+8560Z:
+  label: Activités de soutien à l'enseignement
+8610Z:
+  label: Activités hospitalières
+8621Z:
+  label: Activité des médecins généralistes
+8622A:
+  label: Activités de radiodiagnostic et de radiothérapie
+8622B:
+  label: Activités chirurgicales
+8622C:
+  label: Autres activités des médecins spécialistes
+8623Z:
+  label: Pratique dentaire
+8690A:
+  label: Ambulances
+8690B:
+  label: Laboratoires d'analyses médicales
+8690C:
+  label: Centres de collecte et banques d'organes
+8690D:
+  label: Activités des infirmiers et des sages-femmes
+8690E:
+  label: Activités des professionnels de la rééducation, de l'appareillage et des
+    pédicures-podologues
+8690F:
+  label: Activités de santé humaine non classées ailleurs
+8710A:
+  label: Hébergement médicalisé pour personnes âgées
+8710B:
+  label: Hébergement médicalisé pour enfants handicapés
+8710C:
+  label: Hébergement médicalisé pour adultes handicapés et autre hébergement médicalisé
+8720A:
+  label: Hébergement social pour handicapés mentaux et malades mentaux
+8720B:
+  label: Hébergement social pour toxicomanes
+8730A:
+  label: Hébergement social pour personnes âgées
+8730B:
+  label: Hébergement social pour handicapés physiques
+8790A:
+  label: Hébergement social pour enfants en difficultés
+8790B:
+  label: Hébergement social pour adultes et familles en difficultés et autre hébergement
+    social
+8810A:
+  label: Aide à domicile
+8810B:
+  label: Accueil ou accompagnement sans hébergement d'adultes handicapés ou de personnes
+    âgées
+8810C:
+  label: Aide par le travail
+8891A:
+  label: Accueil de jeunes enfants
+8891B:
+  label: Accueil ou accompagnement sans hébergement d'enfants handicapés
+8899A:
+  label: Autre accueil ou accompagnement sans hébergement d'enfants et d'adolescents
+8899B:
+  label: Action sociale sans hébergement n.c.a.
+9001Z:
+  label: Arts du spectacle vivant
+9002Z:
+  label: Activités de soutien au spectacle vivant
+9003A:
+  label: Création artistique relevant des arts plastiques
+9003B:
+  label: Autre création artistique
+9004Z:
+  label: Gestion de salles de spectacles
+9101Z:
+  label: Gestion des bibliothèques et des archives
+9102Z:
+  label: Gestion des musées
+9103Z:
+  label: Gestion des sites et monuments historiques et des attractions touristiques
+    similaires
+9104Z:
+  label: Gestion des jardins botaniques et zoologiques et des réserves naturelles
+9200Z:
+  label: Organisation de jeux de hasard et d'argent
+9311Z:
+  label: Gestion d'installations sportives
+9312Z:
+  label: Activités de clubs de sports
+9313Z:
+  label: Activités des centres de culture physique
+9319Z:
+  label: Autres activités liées au sport
+9321Z:
+  label: Activités des parcs d'attractions et parcs à thèmes
+9329Z:
+  label: Autres activités récréatives et de loisirs
+9411Z:
+  label: Activités des organisations patronales et consulaires
+9412Z:
+  label: Activités des organisations professionnelles
+9420Z:
+  label: Activités des syndicats de salariés
+9491Z:
+  label: Activités des organisations religieuses
+9492Z:
+  label: Activités des organisations politiques
+9499Z:
+  label: Autres organisations fonctionnant par adhésion volontaire
+9511Z:
+  label: Réparation d'ordinateurs et d'équipements périphériques
+9512Z:
+  label: Réparation d'équipements de communication
+9521Z:
+  label: Réparation de produits électroniques grand public
+9522Z:
+  label: Réparation d'appareils électroménagers et d'équipements pour la maison et
+    le jardin
+9523Z:
+  label: Réparation de chaussures et d'articles en cuir
+9524Z:
+  label: Réparation de meubles et d'équipements du foyer
+9525Z:
+  label: Réparation d'articles d'horlogerie et de bijouterie
+9529Z:
+  label: Réparation d'autres biens personnels et domestiques
+9601A:
+  label: Blanchisserie-teinturerie de gros
+9601B:
+  label: Blanchisserie-teinturerie de détail
+9602A:
+  label: Coiffure
+9602B:
+  label: Soins de beauté
+9603Z:
+  label: Services funéraires
+9604Z:
+  label: Entretien corporel
+9609Z:
+  label: Autres services personnels n.c.a.
+9700Z:
+  label: Activités des ménages en tant qu'employeurs de personnel domestique
+9810Z:
+  label: Activités indifférenciées des ménages en tant que producteurs de biens pour
+    usage propre
+9820Z:
+  label: Activités indifférenciées des ménages en tant que producteurs de services
+    pour usage propre
+9900Z:
+  label: Activités des organisations et organismes extraterritoriaux

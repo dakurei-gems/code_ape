@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    code_ape (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (12.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  code_ape!
+  minitest
+  rake
+
+BUNDLED WITH
+   1.16.2
