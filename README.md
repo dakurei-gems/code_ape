@@ -25,12 +25,24 @@ Or install it yourself as:
 ```ruby
 require 'code_ape'
 
+CodeApe.ape('58')
+=> {"label"=>"Édition"}
+
+CodeApe.ape('5829C')
+=> {"label"=>"Edition de logiciels applicatifs"}
+
+CodeApe.ape('5830A')
+=> nil
+
+# DEPRECATED
 CodeApe.division(58)
 => {"label"=>"Edition"}
 
+# DEPRECATED
 CodeApe.activity("5829C")
 => {"label"=>"Edition de logiciels applicatifs"}
 
+# DEPRECATED
 CodeApe.activity("5830A")
 => nil
 ```
