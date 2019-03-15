@@ -1,4 +1,8 @@
 ---
+'00':
+  label: En attente de chiffrement sans activité
+'0000Z':
+  label: En attente de chiffrement sans activité
 '01':
   label: Culture et production animale, chasse et services annexes
 '0111Z':
