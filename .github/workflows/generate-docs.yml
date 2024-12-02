@@ -1,0 +1,90 @@
+name: "Generate Docs"
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
+
+jobs:
+  generate_docs:
+    name: Generate Docs
+    runs-on: ubuntu-latest
+    env:
+      api-dir: ./
+
+    strategy:
+      fail-fast: false
+
+    steps:
+      - name: Checkout repository for Docs
+        uses: actions/checkout@v4
+        with:
+          path: code_ape_docs
+
+      - name: Install OS packages
+        run: |
+          sudo apt update
+          sudo apt install -y git openssh-client
+
+      - name: Setup Git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup Ruby 3.2
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler-cache: true
+
+      - name: Checkout repository for Github Pages
+        uses: actions/checkout@v4
+        with:
+          path: code_ape_gh
+          ref: gh-pages
+
+      - name: Bundle Install
+        working-directory: ${{env.api-dir}}
+        run: |
+          gem install bundler
+          BUNDLE_GEMFILE=code_ape_docs/Gemfile bundle install
+
+      - name: Run Yard
+        run: |
+          cd code_ape_docs
+          bundle exec yard --output-dir /tmp/docs
+
+      - name: Cleanup Yard doc files
+        run: |
+          cd code_ape_docs
+          DOC_PATH="/tmp/docs" bin/clean_doc
+
+      - name: Commit docs
+        run: |
+          cd code_ape_gh
+          mkdir -p $GITHUB_REF_NAME
+          rm -rf $GITHUB_REF_NAME/*
+          cp -r /tmp/docs/. $GITHUB_REF_NAME
+          git add $GITHUB_REF_NAME
+          git commit --allow-empty -m "⚙️ Update Yard Docs"
+
+      - name: RSpec spec for code coverage
+        run: |
+          cd code_ape_docs
+          bundle exec rspec spec --format progress
+
+      - name: Commit code coverage
+        run: |
+          cd code_ape_gh
+          mkdir -p $GITHUB_REF_NAME/coverage
+          rm -rf $GITHUB_REF_NAME/coverage/*
+          cp -r ../code_ape_docs/coverage/assets ../code_ape_docs/coverage/index.html $GITHUB_REF_NAME/coverage
+          git add $GITHUB_REF_NAME/coverage
+          git commit --allow-empty -m "⚙️ Update Code Coverage"
+
+      - name: Push
+        run: |
+          cd code_ape_gh
+          git push

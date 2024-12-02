@@ -1,4 +1,11 @@
-# CodeApe
+[![Gem](https://img.shields.io/gem/v/code_ape.svg)](https://rubygems.org/gems/code_ape)
+[![Gem](https://img.shields.io/gem/dt/code_ape.svg)](https://rubygems.org/gems/code_ape)
+[![Gem](https://img.shields.io/badge/docs-v3.0.0-979797.svg)](https://dakurei-gems.github.io/code_ape/v3.0.0/)
+[![Github Actions Rspec](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml/badge.svg?branch=main&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml)
+[![Github Actions Standard](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml/badge.svg?branch=main&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml)
+[![Inline docs](https://img.shields.io/badge/docs-master-979797.svg)](https://dakurei-gems.github.io/code_ape/master/)
+
+# code_ape
 
 Gem for obtaining the wording of a specific 'ape code'
 
@@ -7,7 +14,7 @@ Gem for obtaining the wording of a specific 'ape code'
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'code_ape'
+gem "code_ape"
 ```
 
 And then execute:
@@ -21,27 +28,56 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-require 'code_ape'
+require "code_ape"
 
-CodeApe.ape('58')
-=> {"label"=>"Édition"}
+CodeApe.ape("58")
+=> #<CodeApe::Subsection @key="58", @label="Édition">
 
-CodeApe.ape('5829C')
-=> {"label"=>"Edition de logiciels applicatifs"}
+CodeApe.ape("58")&.label
+=> "Édition"
 
-CodeApe.ape('5830A')
-=> nil
+CodeApe.ape("58")&.divisions
+=>
+[#<CodeApe::Division @key="58.1", @label="Édition de livres et périodiques et autres activités d'édition">,
+ #<CodeApe::Division @key="58.2", @label="Édition de logiciels">]
 
-# DEPRECATED
-CodeApe.division(58)
-=> {"label"=>"Edition"}
+CodeApe.ape("5829")&.classes
+=>
+[#<CodeApe::Class
+  @division_id="58.2",
+  @group_id="58.29",
+  @key="58.29A",
+  @label="Édition de logiciels système et de réseau",
+  @section_id="J",
+  @subsection_id="58">,
+ #<CodeApe::Class
+  @division_id="58.2",
+  @group_id="58.29",
+  @key="58.29B",
+  @label="Édition de logiciels outils de développement et de langages",
+  @section_id="J",
+  @subsection_id="58">,
+ #<CodeApe::Class
+  @division_id="58.2",
+  @group_id="58.29",
+  @key="58.29C",
+  @label="Édition de logiciels applicatifs",
+  @section_id="J",
+  @subsection_id="58">]
 
-# DEPRECATED
-CodeApe.activity("5829C")
-=> {"label"=>"Edition de logiciels applicatifs"}
+CodeApe.ape("5829C")
+=> #<CodeApe::Class
+ @division_id="58.2",
+ @group_id="58.29",
+ @key="58.29C",
+ @label="Édition de logiciels applicatifs",
+ @section_id="J",
+ @subsection_id="58">
 
-# DEPRECATED
-CodeApe.activity("5830A")
+CodeApe.ape("5829C")&.label
+=> "Édition de logiciels applicatifs"
+
+CodeApe.ape("5830A")
 => nil
 ```
 

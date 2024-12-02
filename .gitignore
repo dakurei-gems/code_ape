@@ -6,3 +6,9 @@
 /pkg/
 /spec/reports/
 /tmp/
+
+# rspec failure tracking
+.rspec_status
+
+# ignore Gemfile.lock (/!\ ENABLE AFTER REMOVE THEM /!\)
+Gemfile.lock
