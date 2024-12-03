@@ -27,4 +27,11 @@ module CodeApe
       CLASSES.find { |e| e.key == upcased_code || e.key.delete(".") == upcased_code }
     end
   end
+
+  # Takes a section code and returns data if possible
+  # @param code [String] The section code to search
+  # @return [CodeApe::Section, nil] the section code data
+  def self.section(code)
+    SECTIONS.find { |e| e.key == code&.upcase }
+  end
 end

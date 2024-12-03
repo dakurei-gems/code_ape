@@ -79,6 +79,9 @@ CodeApe.ape("5829C")&.label
 
 CodeApe.ape("5830A")
 => nil
+
+CodeApe.section("A")
+=> #<CodeApe::Section @key="A", @label="Agriculture, sylviculture et pêche">
 ```
 
 ## Development

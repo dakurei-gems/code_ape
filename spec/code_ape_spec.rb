@@ -3,6 +3,11 @@ RSpec.describe CodeApe do
     expect(CodeApe::VERSION).not_to be nil
   end
 
+  it "can search section" do
+    expect(CodeApe.section("A")).not_to be nil
+    expect(CodeApe.section("A")&.label).to eq "Agriculture, sylviculture et pêche"
+  end
+
   it "can search subsection" do
     expect(CodeApe.ape("58")).not_to be nil
     expect(CodeApe.ape("58")&.label).to eq "Édition"
