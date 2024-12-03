@@ -1,8 +1,8 @@
 [![Gem](https://img.shields.io/gem/v/code_ape.svg)](https://rubygems.org/gems/code_ape)
 [![Gem](https://img.shields.io/gem/dt/code_ape.svg)](https://rubygems.org/gems/code_ape)
 [![Gem](https://img.shields.io/badge/docs-v3.0.0-979797.svg)](https://dakurei-gems.github.io/code_ape/v3.0.0/)
-[![Github Actions Rspec](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml/badge.svg?branch=main&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml)
-[![Github Actions Standard](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml/badge.svg?branch=main&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml)
+[![Github Actions Rspec](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml/badge.svg?branch=master&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml)
+[![Github Actions Standard](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml/badge.svg?branch=master&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml)
 [![Inline docs](https://img.shields.io/badge/docs-master-979797.svg)](https://dakurei-gems.github.io/code_ape/master/)
 
 # code_ape
