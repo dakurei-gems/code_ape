@@ -44,35 +44,35 @@ CodeApe.ape("58")&.divisions
 CodeApe.ape("5829")&.classes
 =>
 [#<CodeApe::Class
-  @division_id="58.2",
-  @group_id="58.29",
+  @division_key="58.2",
+  @group_key="58.29",
   @key="58.29A",
   @label="Édition de logiciels système et de réseau",
-  @section_id="J",
-  @subsection_id="58">,
+  @section_key="J",
+  @subsection_key="58">,
  #<CodeApe::Class
-  @division_id="58.2",
-  @group_id="58.29",
+  @division_key="58.2",
+  @group_key="58.29",
   @key="58.29B",
   @label="Édition de logiciels outils de développement et de langages",
-  @section_id="J",
-  @subsection_id="58">,
+  @section_key="J",
+  @subsection_key="58">,
  #<CodeApe::Class
-  @division_id="58.2",
-  @group_id="58.29",
+  @division_key="58.2",
+  @group_key="58.29",
   @key="58.29C",
   @label="Édition de logiciels applicatifs",
-  @section_id="J",
-  @subsection_id="58">]
+  @section_key="J",
+  @subsection_key="58">]
 
 CodeApe.ape("5829C")
 => #<CodeApe::Class
- @division_id="58.2",
- @group_id="58.29",
+ @division_key="58.2",
+ @group_key="58.29",
  @key="58.29C",
  @label="Édition de logiciels applicatifs",
- @section_id="J",
- @subsection_id="58">
+ @section_key="J",
+ @subsection_key="58">
 
 CodeApe.ape("5829C")&.label
 => "Édition de logiciels applicatifs"

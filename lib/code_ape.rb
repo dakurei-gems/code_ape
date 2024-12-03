@@ -8,7 +8,11 @@ require "code_ape/division"
 require "code_ape/group"
 require "code_ape/class"
 
+# All CodeApe functionality
 module CodeApe
+  # Takes a ape code and returns data if possible
+  # @param code [String] The ape code to search
+  # @return [CodeApe::Subsection, CodeApe::Division, CodeApe::Group, CodeApe::Class, nil] the ape code data
   def self.ape(code)
     upcased_code = code&.upcase
 
