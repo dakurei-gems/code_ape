@@ -1,3 +1,4 @@
 module CodeApe
-  VERSION = '2.0.2'.freeze
+  # The current version of code_ape
+  VERSION = "3.0.0".freeze unless const_defined?(:VERSION)
 end

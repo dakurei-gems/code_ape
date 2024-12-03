@@ -1,0 +1,43 @@
+name: "Code Coverage"
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  code_coverage:
+    name: Code Coverage
+    runs-on: ubuntu-latest
+    env:
+      api-dir: ./
+
+    strategy:
+      fail-fast: false
+
+    steps:
+    - name: Install OS packages
+      run: |
+        sudo apt update
+        sudo apt install -y jq
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Ruby 3.2
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.2
+        bundler-cache: true
+
+    - name: RSpec spec for code coverage
+      working-directory: ${{env.api-dir}}
+      run: bundle exec rspec spec --format progress
+
+    - name: Check code coverage 100%
+      working-directory: ${{env.api-dir}}
+      run: |
+        [[ $(jq '.result.line' coverage/.last_run.json) -eq 100 ]]

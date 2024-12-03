@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "htmlbeautifier"
+require "colorize"
+
+DOC_PATH = ENV["DOC_PATH"] || File.expand_path("../doc", __dir__)
+
+puts "Cleaning HTML Doc..."
+Dir.glob(File.join(DOC_PATH, "**/*.html")).each do |element|
+  html = File.read(element)
+  cleanup_html = HtmlBeautifier.beautify(html)
+  f = File.open(element, "w")
+  f.write(cleanup_html)
+  f.close
+
+  ratio = (cleanup_html.split("\n").size.to_f * 100.0) / html.split("\n").size.to_f
+  gain = 100.0 - ratio
+  factor = if gain < 0
+    "+#{gain.abs.round(2)}%".red
+  elsif gain > 0
+    "-#{gain.abs.round(2)}%".green
+  else
+    "=#{gain.abs.round(2)}%".yellow
+  end
+
+  puts "  Cleaning #{element}... (#{factor})"
+end
+puts "DONE!"
