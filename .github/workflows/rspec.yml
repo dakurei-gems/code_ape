@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        versions: [ '3.2', '3.3' ]
+        versions: [ '3.2', '3.3', '3.4' ]
 
     steps:
     - name: Checkout repository
