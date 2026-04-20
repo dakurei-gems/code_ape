@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
       Module: CodeApe
-      &mdash; Documentation by YARD 0.9.37
+      &mdash; Documentation by YARD 0.9.43
     </title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
     <script type="text/javascript">
       pathId = "CodeApe";
       relpath = '';
@@ -17,6 +17,7 @@
     <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
   </head>
   <body>
+    <div id="main_progress" aria-hidden="true"></div>
     <div class="nav_wrap">
       <iframe id="nav" src="class_list.html?1"></iframe>
       <div id="resizer"></div>
@@ -45,13 +46,13 @@
         <div class="box_info">
           <dl>
             <dt>Defined in:</dt>
-            <dd>lib/code_ape.rb<span class="defines">,<br />
-                lib/code_ape/class.rb,<br />
-                 lib/code_ape/group.rb,<br />
-                 lib/code_ape/section.rb,<br />
-                 lib/code_ape/version.rb,<br />
-                 lib/code_ape/division.rb,<br />
-                 lib/code_ape/constants.rb,<br />
+            <dd>lib/code_ape.rb<span class="defines">,<br>
+                lib/code_ape/class.rb,<br>
+                 lib/code_ape/group.rb,<br>
+                 lib/code_ape/section.rb,<br>
+                 lib/code_ape/version.rb,<br>
+                 lib/code_ape/division.rb,<br>
+                 lib/code_ape/constants.rb,<br>
                  lib/code_ape/subsection.rb</span>
             </dd>
           </dl>
@@ -95,7 +96,7 @@
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2-constant" title="CodeApe::NAF_REV2 (constant)">NAF_REV2</a></span></span><span class='lbracket'>[</span><span class='symbol'>:classes</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Class.html" title="CodeApe::Class (class)">Class</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Class.html#initialize-instance_method" title="CodeApe::Class#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:label</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:section</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:subsection</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:division</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:group</span><span class='rbracket'>]</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
+            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2_1-constant" title="CodeApe::NAF_REV2_1 (constant)">NAF_REV2_1</a></span></span><span class='lbracket'>[</span><span class='symbol'>:classes</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Class.html" title="CodeApe::Class (class)">Class</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Class.html#initialize-instance_method" title="CodeApe::Class#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:label</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:section</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:subsection</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:division</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='lbracket'>[</span><span class='symbol'>:group</span><span class='rbracket'>]</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
           </dd>
           <dt id="REGEX_GROUP-constant" class="">REGEX_GROUP =
             <div class="docstring">
@@ -119,7 +120,7 @@
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2-constant" title="CodeApe::NAF_REV2 (constant)">NAF_REV2</a></span></span><span class='lbracket'>[</span><span class='symbol'>:groups</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Group.html" title="CodeApe::Group (class)">Group</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Group.html#initialize-instance_method" title="CodeApe::Group#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
+            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2_1-constant" title="CodeApe::NAF_REV2_1 (constant)">NAF_REV2_1</a></span></span><span class='lbracket'>[</span><span class='symbol'>:groups</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Group.html" title="CodeApe::Group (class)">Group</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Group.html#initialize-instance_method" title="CodeApe::Group#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
           </dd>
           <dt id="SECTIONS-constant" class="">SECTIONS =
             <div class="docstring">
@@ -131,7 +132,7 @@
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2-constant" title="CodeApe::NAF_REV2 (constant)">NAF_REV2</a></span></span><span class='lbracket'>[</span><span class='symbol'>:sections</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Section.html" title="CodeApe::Section (class)">Section</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Section.html#initialize-instance_method" title="CodeApe::Section#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
+            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2_1-constant" title="CodeApe::NAF_REV2_1 (constant)">NAF_REV2_1</a></span></span><span class='lbracket'>[</span><span class='symbol'>:sections</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Section.html" title="CodeApe::Section (class)">Section</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Section.html#initialize-instance_method" title="CodeApe::Section#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
           </dd>
           <dt id="VERSION-constant" class="">VERSION =
             <div class="docstring">
@@ -143,7 +144,7 @@
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>3.0.0</span><span class='tstring_end'>&quot;</span></span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
+            <pre class="code"><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>4.0.0</span><span class='tstring_end'>&quot;</span></span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
           </dd>
           <dt id="REGEX_DIVISION-constant" class="">REGEX_DIVISION =
             <div class="docstring">
@@ -167,19 +168,19 @@
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2-constant" title="CodeApe::NAF_REV2 (constant)">NAF_REV2</a></span></span><span class='lbracket'>[</span><span class='symbol'>:divisions</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Division.html" title="CodeApe::Division (class)">Division</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Division.html#initialize-instance_method" title="CodeApe::Division#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
+            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2_1-constant" title="CodeApe::NAF_REV2_1 (constant)">NAF_REV2_1</a></span></span><span class='lbracket'>[</span><span class='symbol'>:divisions</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Division.html" title="CodeApe::Division (class)">Division</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Division.html#initialize-instance_method" title="CodeApe::Division#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
           </dd>
-          <dt id="NAF_REV2-constant" class="">NAF_REV2 =
+          <dt id="NAF_REV2_1-constant" class="">NAF_REV2_1 =
             <div class="docstring">
               <div class="discussion">
-                <p>The content of naf_rev2.json (all ape code data)</p>
+                <p>The content of naf_rev2.1.json (all ape code data)</p>
               </div>
             </div>
             <div class="tags">
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_dirname'>dirname</span><span class='lparen'>(</span><span class='kw'>__FILE__</span><span class='rparen'>)</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>../naf_rev2.json</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span><span class='comma'>,</span> <span class='label'>symbolize_names:</span> <span class='kw'>true</span><span class='rparen'>)</span></pre>
+            <pre class="code"><span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_dirname'>dirname</span><span class='lparen'>(</span><span class='kw'>__FILE__</span><span class='rparen'>)</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>../naf_rev2.1.json</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span><span class='comma'>,</span> <span class='label'>symbolize_names:</span> <span class='kw'>true</span><span class='rparen'>)</span></pre>
           </dd>
           <dt id="REGEX_SUBSECTION-constant" class="">REGEX_SUBSECTION =
             <div class="docstring">
@@ -203,7 +204,7 @@
             </div>
           </dt>
           <dd>
-            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2-constant" title="CodeApe::NAF_REV2 (constant)">NAF_REV2</a></span></span><span class='lbracket'>[</span><span class='symbol'>:subsections</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Subsection.html" title="CodeApe::Subsection (class)">Subsection</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Subsection.html#initialize-instance_method" title="CodeApe::Subsection#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
+            <pre class="code"><span class='const'><span class='object_link'><a href="#NAF_REV2_1-constant" title="CodeApe::NAF_REV2_1 (constant)">NAF_REV2_1</a></span></span><span class='lbracket'>[</span><span class='symbol'>:subsections</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='op'>|</span> <span class='const'><span class='object_link'><a href="CodeApe/Subsection.html" title="CodeApe::Subsection (class)">Subsection</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="CodeApe/Subsection.html#initialize-instance_method" title="CodeApe::Subsection#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_k'>k</span><span class='comma'>,</span> <span class='id identifier rubyid_v'>v</span><span class='rparen'>)</span> <span class='rbrace'>}</span><span class='period'>.</span><span class='id identifier rubyid_freeze'>freeze</span></pre>
           </dd>
         </dl>
         <h2>
@@ -363,9 +364,9 @@
         </div>
       </div>
       <div id="footer">
-        Generated on Mon Jan  6 15:20:43 2025 by
+        Generated on Mon Apr 20 09:50:44 2026 by
         <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-        0.9.37 (ruby-3.2.6).
+        0.9.43 (ruby-3.3.11).
       </div>
     </div>
   </body>
