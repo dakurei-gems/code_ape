@@ -22,10 +22,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Setup Ruby 3.2
+    - name: Setup Ruby 3.3
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.2
+        ruby-version: 3.3
         bundler-cache: true
 
     - name: Generate Yard docs
