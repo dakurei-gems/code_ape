@@ -40,4 +40,4 @@ jobs:
     - name: Check code coverage 100%
       working-directory: ${{env.api-dir}}
       run: |
-        [[ $(jq '.result.line' coverage/.last_run.json) -eq 100 ]]
+        jq -e '.result.line == 100' coverage/.last_run.json
