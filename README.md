@@ -1,6 +1,6 @@
 [![Gem](https://img.shields.io/gem/v/code_ape.svg)](https://rubygems.org/gems/code_ape)
 [![Gem](https://img.shields.io/gem/dt/code_ape.svg)](https://rubygems.org/gems/code_ape)
-[![Gem](https://img.shields.io/badge/docs-v3.0.0-979797.svg)](https://dakurei-gems.github.io/code_ape/v3.0.0/)
+[![Gem](https://img.shields.io/badge/docs-v4.0.0-979797.svg)](https://dakurei-gems.github.io/code_ape/v4.0.0/)
 [![Github Actions Rspec](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml/badge.svg?branch=master&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/rspec.yml)
 [![Github Actions Standard](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml/badge.svg?branch=master&event=push)](https://github.com/dakurei-gems/code_ape/actions/workflows/standard.yml)
 [![Inline docs](https://img.shields.io/badge/docs-master-979797.svg)](https://dakurei-gems.github.io/code_ape/master/)
@@ -31,51 +31,31 @@ Or install it yourself as:
 require "code_ape"
 
 CodeApe.ape("58")
-=> #<CodeApe::Subsection @key="58", @label="Édition">
+=> #<CodeApe::Subsection @key="58", @label="Activités d’édition">
 
 CodeApe.ape("58")&.label
-=> "Édition"
+=> "Activités d’édition"
 
 CodeApe.ape("58")&.divisions
 =>
-[#<CodeApe::Division @key="58.1", @label="Édition de livres et périodiques et autres activités d'édition">,
+[#<CodeApe::Division @key="58.1", @label="Édition de livres, de journaux et autres activités d’édition, à l’exception de l’édition de logiciels">,
  #<CodeApe::Division @key="58.2", @label="Édition de logiciels">]
 
 CodeApe.ape("5829")&.classes
 =>
-[#<CodeApe::Class
-  @division_key="58.2",
-  @group_key="58.29",
-  @key="58.29A",
-  @label="Édition de logiciels système et de réseau",
-  @section_key="J",
-  @subsection_key="58">,
- #<CodeApe::Class
-  @division_key="58.2",
-  @group_key="58.29",
-  @key="58.29B",
-  @label="Édition de logiciels outils de développement et de langages",
-  @section_key="J",
-  @subsection_key="58">,
- #<CodeApe::Class
-  @division_key="58.2",
-  @group_key="58.29",
-  @key="58.29C",
-  @label="Édition de logiciels applicatifs",
-  @section_key="J",
-  @subsection_key="58">]
+[#<CodeApe::Class @division_key="58.2", @group_key="58.29", @key="58.29Y", @label="Édition d’autres logiciels", @section_key="J", @subsection_key="58">]
 
-CodeApe.ape("5829C")
+CodeApe.ape("5829Y")
 => #<CodeApe::Class
  @division_key="58.2",
  @group_key="58.29",
- @key="58.29C",
- @label="Édition de logiciels applicatifs",
+ @key="58.29Y",
+ @label="Édition d’autres logiciels",
  @section_key="J",
  @subsection_key="58">
 
-CodeApe.ape("5829C")&.label
-=> "Édition de logiciels applicatifs"
+CodeApe.ape("5829Y")&.label
+=> "Édition d’autres logiciels"
 
 CodeApe.ape("5830A")
 => nil
