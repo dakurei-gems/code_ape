@@ -38,5 +38,5 @@ module CodeApe
   end
 
   # List of ape code sections
-  SECTIONS = NAF_REV2[:sections].map { |k, v| Section.new(k, v) }.freeze
+  SECTIONS = NAF_REV2_1[:sections].map { |k, v| Section.new(k, v) }.freeze
 end

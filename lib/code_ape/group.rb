@@ -41,5 +41,5 @@ module CodeApe
   end
 
   # List of ape code groups
-  GROUPS = NAF_REV2[:groups].map { |k, v| Group.new(k, v) }.freeze
+  GROUPS = NAF_REV2_1[:groups].map { |k, v| Group.new(k, v) }.freeze
 end

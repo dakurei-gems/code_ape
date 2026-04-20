@@ -41,5 +41,5 @@ module CodeApe
   end
 
   # List of ape code subsections
-  SUBSECTIONS = NAF_REV2[:subsections].map { |k, v| Subsection.new(k, v) }.freeze
+  SUBSECTIONS = NAF_REV2_1[:subsections].map { |k, v| Subsection.new(k, v) }.freeze
 end
