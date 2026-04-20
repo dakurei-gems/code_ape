@@ -2,13 +2,13 @@ RSpec.describe CodeApe::Division do
   it "has classes" do
     expect(CodeApe::DIVISIONS[1].classes).not_to be nil
     expect(CodeApe::DIVISIONS[1].classes).not_to eq []
-    expect(CodeApe::DIVISIONS[1].classes.size).to eq 7
+    expect(CodeApe::DIVISIONS[1].classes.size).to eq 9
   end
 
   it "has groups" do
     expect(CodeApe::DIVISIONS[1].groups).not_to be nil
     expect(CodeApe::DIVISIONS[1].groups).not_to eq []
-    expect(CodeApe::DIVISIONS[1].groups.size).to eq 7
+    expect(CodeApe::DIVISIONS[1].groups.size).to eq 9
   end
 
   it "has subsection" do
@@ -24,6 +24,6 @@ RSpec.describe CodeApe::Division do
   it "can be render to hash" do
     expect(CodeApe::DIVISIONS[1].to_h).not_to be nil
     expect(CodeApe::DIVISIONS[1].to_h).not_to eq({})
-    expect(CodeApe::DIVISIONS[1].to_h).to eq({label: "Cultures non permanentes"})
+    expect(CodeApe::DIVISIONS[1].to_h).to eq({label: "Cultures permanentes"})
   end
 end

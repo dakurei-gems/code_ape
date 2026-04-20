@@ -23,6 +23,6 @@ RSpec.describe CodeApe::Group do
   it "can be render to hash" do
     expect(CodeApe::GROUPS[1].to_h).not_to be nil
     expect(CodeApe::GROUPS[1].to_h).not_to eq({})
-    expect(CodeApe::GROUPS[1].to_h).to eq({label: "Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses"})
+    expect(CodeApe::GROUPS[1].to_h).to eq({label: "Culture du riz"})
   end
 end
