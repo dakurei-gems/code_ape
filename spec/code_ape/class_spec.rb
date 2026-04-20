@@ -1,7 +1,7 @@
 RSpec.describe CodeApe::Class do
   it "has group" do
     expect(CodeApe::CLASSES[1].group).not_to be nil
-    expect(CodeApe::CLASSES[1].group&.label).to eq "Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses"
+    expect(CodeApe::CLASSES[1].group&.label).to eq "Culture du riz"
   end
 
   it "has division" do
@@ -22,6 +22,6 @@ RSpec.describe CodeApe::Class do
   it "can be render to hash" do
     expect(CodeApe::CLASSES[1].to_h).not_to be nil
     expect(CodeApe::CLASSES[1].to_h).not_to eq({})
-    expect(CodeApe::CLASSES[1].to_h).to eq({label: "Culture de céréales (à l'exception du riz), de légumineuses et de graines oléagineuses"})
+    expect(CodeApe::CLASSES[1].to_h).to eq({label: "Culture du riz"})
   end
 end

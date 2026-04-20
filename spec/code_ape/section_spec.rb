@@ -2,7 +2,7 @@ RSpec.describe CodeApe::Section do
   it "has classes" do
     expect(CodeApe::SECTIONS[0].classes).not_to be nil
     expect(CodeApe::SECTIONS[0].classes).not_to eq []
-    expect(CodeApe::SECTIONS[0].classes.size).to eq 39
+    expect(CodeApe::SECTIONS[0].classes.size).to eq 41
   end
 
   it "has groups" do
@@ -14,7 +14,7 @@ RSpec.describe CodeApe::Section do
   it "has divisions" do
     expect(CodeApe::SECTIONS[0].divisions).not_to be nil
     expect(CodeApe::SECTIONS[0].divisions).not_to eq []
-    expect(CodeApe::SECTIONS[0].divisions.size).to eq 13
+    expect(CodeApe::SECTIONS[0].divisions.size).to eq 14
   end
 
   it "has subsections" do

@@ -50,5 +50,5 @@ module CodeApe
   end
 
   # List of ape code classes
-  CLASSES = NAF_REV2[:classes].map { |k, v| Class.new(k, v[:label], v[:section], v[:subsection], v[:division], v[:group]) }.freeze
+  CLASSES = NAF_REV2_1[:classes].map { |k, v| Class.new(k, v[:label], v[:section], v[:subsection], v[:division], v[:group]) }.freeze
 end

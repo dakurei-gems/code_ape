@@ -15,4 +15,5 @@ group :development do
   gem "redcarpet", "~> 3.6"
   gem "github-markup", "~> 5.0"
   gem "colorize", "~> 1.1.0"
+  gem "csv", "~> 3.3.5"
 end

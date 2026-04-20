@@ -1,8 +1,8 @@
 require "csv"
 require "json"
 
-FILE = "naf2008.csv"
-OUTPUT_FILE = "../lib/naf_rev2.json"
+FILE = "naf2025.csv"
+OUTPUT_FILE = "../lib/naf_rev2.1.json"
 
 hash_section = {}
 hash_subsection = {}
@@ -14,17 +14,30 @@ global_hash = {}
 
 csv = CSV.parse(File.read(FILE), headers: true, col_sep: ";", quote_char: "\"")
 csv.each do |row|
-  hash_section[row["Code Section"].to_sym] ||= row["Section"]
-  hash_subsection[row["Code Sous-section"].to_sym] ||= row["Sous-section"]
-  hash_division[row["Code Division"].to_sym] ||= row["Division"]
-  hash_group[row["Code Groupe"].to_sym] ||= row["Groupe"]
-  hash_class[row[0].to_sym] ||= {
-    label: row["Classe"],
-    group: row["Code Groupe"],
-    division: row["Code Division"],
-    subsection: row["Code Sous-section"],
-    section: row["Code Section"]
-  }
+  value = row["NAF 2025 sous-classes"] || row["NACE Rev.2.1"]
+
+  case value
+  when /\A(\d{2})\.?(\d{2})([A-Z])\z/i
+    if !row["NACE Rev.2.1"].nil? && row["NACE Rev.2.1"] != "" && !row["NAF 2025 sous-classes"].nil? && row["NAF 2025 sous-classes"] != ""
+      hash_group[row["NACE Rev.2.1"].to_sym] ||= row["Intitulés"].capitalize
+    end
+
+    hash_class[value.to_sym] ||= {
+      label: row["Intitulés"].capitalize,
+      group: hash_group.to_a.last.first,
+      division: hash_division.to_a.last.first,
+      subsection: hash_subsection.to_a.last.first,
+      section: hash_section.to_a.last.first
+    }
+  when /\A(\d{2})\.?(\d{2})\z/i
+    hash_group[value.to_sym] ||= row["Intitulés"].capitalize
+  when /\A(\d{2})\.?(\d{1})\z/i
+    hash_division[value.to_sym] ||= row["Intitulés"].capitalize
+  when /\A(\d{2})\z/i
+    hash_subsection[value.to_sym] ||= row["Intitulés"].capitalize
+  when /\A([A-Za-z])\z/i
+    hash_section[value.to_sym] ||= row["Intitulés"].capitalize
+  end
 end
 
 global_hash[:sections] = hash_section.sort_by { |k, _| k }.to_h

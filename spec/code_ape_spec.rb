@@ -10,7 +10,7 @@ RSpec.describe CodeApe do
 
   it "can search subsection" do
     expect(CodeApe.ape("58")).not_to be nil
-    expect(CodeApe.ape("58")&.label).to eq "Édition"
+    expect(CodeApe.ape("58")&.label).to eq "Activités d’édition"
   end
 
   it "can search division" do
@@ -20,11 +20,11 @@ RSpec.describe CodeApe do
 
   it "can search group" do
     expect(CodeApe.ape("5829")).not_to be nil
-    expect(CodeApe.ape("5829")&.label).to eq "Édition d'autres logiciels"
+    expect(CodeApe.ape("5829")&.label).to eq "Édition d’autres logiciels"
   end
 
   it "can search class" do
-    expect(CodeApe.ape("5829C")).not_to be nil
-    expect(CodeApe.ape("5829C")&.label).to eq "Édition de logiciels applicatifs"
+    expect(CodeApe.ape("5829Y")).not_to be nil
+    expect(CodeApe.ape("5829Y")&.label).to eq "Édition d’autres logiciels"
   end
 end

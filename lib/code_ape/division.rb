@@ -41,5 +41,5 @@ module CodeApe
   end
 
   # List of ape code divisions
-  DIVISIONS = NAF_REV2[:divisions].map { |k, v| Division.new(k, v) }.freeze
+  DIVISIONS = NAF_REV2_1[:divisions].map { |k, v| Division.new(k, v) }.freeze
 end
